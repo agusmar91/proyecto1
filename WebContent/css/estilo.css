@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Rubik+Mono+One');
+
+body{
+	background-color: #2E9AFE;
+	font-size: 20px;
+}
+
+header{
+	display:block;
+	background: grey;
+}
+
+div#content{
+	border: 2px solid black;
+	width: 800px;
+	margin: 20px;
+	padding: 50px;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Rubik Mono One', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2ex;
+}
+
+header,section,footer{
+	border: 1px solid white;
+	width:80%;
+}
+
+section p{
+	width:60%;
+	float: left;
+}
+
+section img{
+	display: block;
+	width: 30%;
+	float: right;
+}
+
+section hr{
+	display:block;
+	margin: auto;
+	width: 80;
+}
+
+section iframe{
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+footer{
+	
+}
+
+footer ul{
+	display:inline-block;
+	border: 0px;
+	
+}
+
+footer ul li{
+	float: left;
+	width: 180px;
+	border: 1px solid black;
+	text-align: center;
+	list-style-type: none;
+}
+
+footer ul li a{
+	
+}
